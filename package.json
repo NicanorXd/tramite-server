@@ -30,7 +30,6 @@
     "@ruanitto/adonis-report-builder": "^1.0.3",
     "axios": "^0.19.2",
     "blob": "^0.1.0",
-    "ccffigueroa-signature": "^1.1.1",
     "collect.js": "^4.28.2",
     "concat-stream": "^2.0.0",
     "content-disposition": "^0.5.3",
