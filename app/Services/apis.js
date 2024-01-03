@@ -9,10 +9,7 @@ const authentication = {
   },
   get: async (path, config) => {
     const api = `${API.API_AUTHENTICATION}/${path}`;
-    return axios.get(api, config).catch((err) => {
-      console.log(err);
-      throw err;
-    });
+    return axios.get(api, config);
   },
   post: (path, data = {}, config) => {
     const api = `${API.API_AUTHENTICATION}/${path}`;
